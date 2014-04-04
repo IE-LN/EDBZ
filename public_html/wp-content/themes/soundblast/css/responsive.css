@@ -1,0 +1,544 @@
+/*==============================================	Desktop Query	==============================================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.wrapper_boxed{
+	width:970px;
+	}
+.breadcrumb, #main{
+	width: 960px;
+}
+.meet-artist article{
+	width:500px;
+}
+.col-md-12 .album-grid-view-four article,
+.col-md-9 .album-grid-view-four article,
+.col-md-8 .album-grid-view-four article {
+    width: 22%;
+}
+.navigation ul li{
+	padding:23px 17.8px;
+}
+.header-right{
+	width:13%;
+}
+.services article{
+	width:30%;
+}
+.element_size_67 .new-releases article{
+	width:183px;
+}
+.meet-artist article{
+	 width:312px;
+}
+.center{
+	right:15px;
+}
+#footer-widgets .widget{
+	width:31%;
+}
+.event-v2 article .text p{
+	float:none;
+}
+.widget.widget_calendar{
+	-moz-box-sizing:border-box;
+	overflow:hidden;
+}
+.meet-artist article.team-v2{
+	width:24.4%;
+}
+.testimonial-shortcode .testimonial-v1{
+	width:31%;
+}
+.col-md-9 ul.products li.product, .col-md-9 ul.products li.product{
+	width:32%;
+}
+.tabs.horizontal .nav-tabs > li > a, .tabs.vertical .nav-tabs a, .woocommerce-tabs ul.tabs li a{
+	padding:17px 4px;
+}
+.sociol-icons{
+	width:25%;
+}
+.sociol-icons:first-of-type:before{
+	display:none;
+}
+}
+/*==============================================	Tablet Query	==============================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+		overflow:hidden;
+	}
+	.wrapper_boxed{
+	width:768px;
+	}
+.breadcrumb, #main{
+	width:768px;
+}
+.logo{
+	text-align:center;
+	float:none;
+	margin:0 2.3% 0 2.3%;
+}
+.paralax-text{
+	top:35%;
+}
+.meet-artist article{
+	width:472px;
+}
+.meet-artist article{
+	width:220px;
+}
+.services article{
+	width:47%;
+	margin-left:0;
+}
+.services article{
+	width: 33%;
+	border: none;
+}
+#footer-widgets .widget{
+	margin: 0px 0px 0px 19px;
+}
+.widget_gallery ul li {
+    height: 63px;
+    margin: 8px 0 0 7px;
+}
+.col-md-12 .album-grid-view-four article,
+.col-md-9 .album-grid-view-four article,
+.col-md-8 .album-grid-view-four article {
+    width: 30%;
+}
+#wp-calendar thead th {
+    padding: 3px 7px;
+}
+.event-v2 article .text .map-marker i {
+    padding: 0 10px;
+}
+.gallerysec ul li figure figcaption i{padding: 8px 0 0 8px; }
+.widget-latestnews article figure{
+	margin:0 0 20px;
+}
+.widget-latestnews article .text{
+	float: left;
+    padding-left:0;
+    width: 100%;
+}
+.copyright .social-network{
+	float:left;
+}
+.copyright .social-network a{
+	margin: 0 30px 0 0;
+}
+.navigation ul li{
+	padding:23px 19px;
+}
+.header-right{
+	width:16%;
+	margin:0 4% 0 0;
+}
+.event-v2 article .text p{
+	float:none;
+}
+.widget_text img{
+	height:auto;
+}
+.col-md-3 .widget_gallery ul li{
+	height:71px;
+    width:71px;
+}
+.gallerysec ul li figure figcaption i{
+	padding: 10px 0 0 10px;
+}
+.gallerysec .gallery-three-col li figure figcaption i, .gallerysec .gallery-tow-col li figure figcaption i{
+	width:40px;
+	height:40px;
+}
+.col-md-4 {
+    float: left;
+    width: 20%;
+}
+.col-md-8.none{
+	float: left;
+    width: 80%;
+}
+.detail-cont-left > figure,
+.detail-cont-left > figure a img {
+    height:100%;
+}
+.mapsection{
+	height:110px !important;
+}
+.meet-artist article.team-v2{
+	width:49.2%;
+}
+.testimonial-shortcode .testimonial-v1{
+	width:31%;
+}
+.password_protected form{
+	width:100%;
+}
+.price-table{
+	width: 48.3%;
+}
+.price-style2{
+	width:48.6%;
+}
+.comment-respond form p input[type="text"]{
+	width:79%;
+}
+.comment-respond form p strong{
+	float:right;
+	margin-left:0;
+}
+.col-md-9 ul.products li.product, .col-md-9 ul.products li.product{
+	width:48.8%;
+}
+.event-performers figure{
+	margin:0 0 10px;
+}
+.tabs.horizontal .nav-tabs .active a, .woocommerce-tabs ul.tabs .active a{
+	border-right:1px solid #666;
+}
+.sociol-icons{
+	width:25%;
+}
+.sociol-icons:first-of-type:before{
+	display:none;
+}
+}
+/*==============================================	Mobile Landscape Query	==============================================*/
+@media (max-width: 767px) {
+	.wrapper_boxed{
+	width:476px;
+	}
+.breadcrumb, #main{
+	width: 466px;
+	overflow:hidden;
+}
+.header{
+	padding:0 10px;
+}
+.logo{
+	float:none;
+	text-align:center;
+	width:100%;
+}
+.header-right, .navigation{
+	width:100%;
+	float:left;
+}
+#selectnav2{
+	display:none;
+}
+.js .selectnav{
+	width:100%;
+	padding:10px;
+}
+.cart-secc{
+	width:70%;
+	float:left;
+	text-align:center;
+}
+.cart-secc .cart-qnt{
+	left:60%;
+}
+.cart-secc .cs-amount{
+	float:none;
+}
+#lang_sel{
+	float:left;
+	width:25%;
+	right:19.6%;
+}
+.main-progress{
+	width:100%;
+}
+.services article{
+	width:100%;
+	margin-left:0;
+	padding:0;
+}
+.element_size_33, 
+.element_size_67,
+.element_size_25,
+.element_size_75,
+.event-v2 article .text{
+	width:100%;
+}
+.element_size_67 .new-releases article{
+	width:403px;
+}
+.parallaxbg{
+	height:320px !important;
+	left:0 !important;
+	width:100% !important;
+}
+.event-v2 article figure{
+	width:100%;
+	height:auto;
+	margin:0 0 12px;
+}
+.event-v2 article .text{
+	padding-bottom:90px;
+}
+.map-marker{
+	right:20px;
+	bottom:13px;
+	top:auto;
+}
+.widget_newsletter form {
+    width: 388px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+	width: 100%;
+}
+.partners .center{
+	right: 15px;
+}
+.meet-artist article{
+	width:472px;
+}
+#footer-widgets .widget{
+	width:100%;
+	margin-left:0;
+}
+.copyright .social-network a{
+	margin:0 30px 0 0;
+}
+.col-md-12 .album-grid-view-four article,
+.col-md-9 .album-grid-view-four article,
+.col-md-8 .album-grid-view-four article {
+    width: 45%;
+}
+.event.albums-list article figure{
+	float: none;
+	display: inline-block;
+}
+.event.albums-list article .text{
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.gallerysec .gallery-three-col li figure figcaption i, .gallerysec .gallery-tow-col li figure figcaption {
+	width: 25px; 
+	height: 25px;
+	left:60%;
+    top:60%;
+}
+.gallerysec ul li figure figcaption i{padding: 5px 0px 0 5px; font-size: 16px; }
+.widget_search form input[type="submit"]{
+	right:25px;
+	padding:5px 15px 6px;
+}
+.latest-video article{
+	width:100%;
+}
+.postlist.blog.blog-medium-view article figure{
+	margin:0 0 10px;
+    width:100%;
+}
+.postlist.blog.blog-medium-view .blog-text .text{
+	float:left;
+    margin:0;
+    width:100%;
+}
+.shortgrid{
+	width:100% !important;
+}
+.tabs.horizontal .nav-tabs > li > a, .tabs.vertical .nav-tabs a, .woocommerce-tabs ul.tabs li a{
+	padding:17px 39px;
+}
+.meet-artist article.team-v2,
+.testimonial-shortcode .testimonial-v1{
+	width:100%;
+}
+.right-sec .btncontrole{
+	margin: 0 10px 0 0;
+}
+#comments .text{
+	width:100%;
+	float:left;
+	margin:0;
+}
+#comments .text header{
+	float: left;
+    margin: 0 0 20px;
+    padding: 0 0 0 18px;
+    width: 100%;
+}
+#comments .text p{
+	margin:0;
+}
+.password_protected form,
+.price-table,
+.price-style2,
+.price-style3,
+.element_size_50,
+.col-md-9 ul.products li.product, .col-md-9 ul.products li.product,
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last{
+	width:100%;
+}
+.comment-respond form p strong{
+	float:left;
+	margin:11px 0 0 0;
+}
+.comment-respond form p input[type="text"]{
+	margin-right:10px;
+}
+.tabs.horizontal .nav-tabs .active a, .woocommerce-tabs ul.tabs .active a{
+	border-right:1px solid #666;
+}
+.breadcrumb .cs-page-title{
+	font-size:40px;
+}
+.postlist.blog .audio-post figure figcaption{
+	left:42%;
+}
+.meet-artist article .social-network{
+	transform:scale(0, 0);
+}
+.sociol-icons{
+	width:100%;
+}
+.sociol-icons:before{
+	display:none;
+}
+}
+/*==============================================	Mobile Portrait Query	==============================================*/
+@media (max-width: 480px) {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+	width: 100%;
+}
+.wrapper_boxed{
+	width:310px;
+}
+.breadcrumb, #main{
+	width:300px;
+	overflow:hidden;
+}
+.header{
+	padding:0 10px;
+}
+.logo{
+	float:none;
+	text-align:center;
+	width:100%;
+}
+.header-right, .navigation{
+	width:100%;
+	float:left;
+}
+#selectnav2{
+	display:none;
+}
+.js .selectnav{
+	width:100%;
+	padding:10px;
+}
+.cart-secc{
+	width:70%;
+	float:left;
+	text-align:center;
+}
+.cart-secc .cart-qnt{
+	left:60%;
+}
+.cart-secc .cs-amount{
+	float:none;
+}
+#lang_sel{
+	float:left;
+	width:25%;
+	right:19.6%;
+}
+.main-progress{
+	width:100%;
+}
+.services article{
+	width:100%;
+	margin-left:0;
+}
+.element_size_33, 
+.element_size_67,
+.element_size_25,
+.element_size_75,
+.event-v2 article .text,
+#footer-widgets .widget{
+	width:100%;
+}
+.element_size_67 .new-releases article{
+	width:245px;
+}
+.parallaxbg{
+	height:320px !important;
+	left:0 !important;
+}
+.event-v2 article figure{
+	width:100%;
+	height:auto;
+	margin:0 0 12px;
+}
+.event-v2 article .text{
+	padding-bottom:90px;
+}
+.meet-artist article{
+	width:310px;
+}
+.meet-artist article figure figcaption{
+	padding:10px 20px 13px 8px;
+}
+.cs-lead-sec i{
+	right:70px;
+	position:absolute;
+}
+#footer-widgets .widget{
+	margin-left:0;
+}
+.copyright p{
+	margin:0 0 15px;
+}
+.widget_newsletter form{
+width: 280px;
+}
+.copyright .social-network a{
+	margin:0 30px 0 0;
+}
+.cs-minus{
+	margin: 0px;
+}
+.col-md-12 .album-grid-view-four article,
+.col-md-9 .album-grid-view-four article,
+.col-md-8 .album-grid-view-four article {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+.comment-respond form p input[type="text"]{
+	width:100%;
+}
+.gallerysec .gallery-three-col li{
+	width:32%;
+}
+.detail-sec ul li .cs-buynow{
+	margin:15px 0 0;
+}
+.share_post .right-sec{
+	margin:15px 0 0;
+}
+.comment-respond form p strong{
+	float:left;
+	width:100%;
+}
+.comment-respond form p .fa-align-left{
+	top:189px;
+}
+.comment-respond form p .fa-envelope{
+	top:100px;
+}
+.share_post .right-sec{
+	float:left;
+}
+.breadcrumb .cs-page-title{
+	font-size:30px;
+}
+.tabs.vertical .tab-content{
+	padding:30px 21px 31px;
+}
+}

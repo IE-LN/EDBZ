@@ -1,0 +1,293 @@
+#main .sociol-icons ul li:hover i,
+.header{
+    background-color: #000;
+}
+.share_post .social-network h6 a,
+.right-sec .btncontrole{
+	background: #000;
+}
+.logo{
+    background-color: #1a1a1a;
+}
+.cart-secc .cs-amount,
+#lang_sel a.lang_sel_sel {
+    background-color: #181818;
+    box-shadow: 0px 0px 4px 0px #070707 inset;
+}
+#lang_sel ul ul a, #lang_sel ul ul a:visited{
+    background-color: #181818;
+}
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce .woocommerce-ordering select,
+.cart .quantity input[type="button"],
+.cart .quantity input[type="number"],
+.woocommerce form .form-row select,
+.sociol-icons ul li .icon-detail i,
+.event article:hover figure span,
+.woocommerce-pagination ul li span,
+.about-author .text .user-info h2,
+.woocommerce-pagination ul li a,
+.detail-section ul.post-options li,
+.detail-section ul.post-options li a,
+#lang_sel a.lang_sel_sel,
+#process_newsletter_1 i,
+.cart-secc .cs-amount,
+.col-md-9 .tagcloud i,
+.col-md-12 .tagcloud i,
+input[type="submit"],
+.pagination ul li a,
+.post-options li a,
+.social-area span,
+.detail-sec ul li,
+.post-options li,
+.widget select,
+.cs-page-title,
+.caption h1,
+.caption p,
+.bay-album,
+.tagcloud a {
+    color: #fff;
+}
+.woocommerce #payment, .woocommerce-page #payment,
+.woocommerce-message, .woocommerce-error, .woocommerce-info,
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce .woocommerce-ordering select,
+#main .woocommerce .form-row select,
+#banner .audio-plyer,
+.widget select{
+  background-color: #101010;
+}
+.chzn-container .chzn-drop,
+.chzn-container-single .chzn-single,
+.chzn-container-active .chzn-single-with-drop{
+  background: #101010 !important;
+  box-shadow: none !important;
+}
+.audio-control a.jp-play,.audio-control a.jp-pause,
+#main .widget select{
+  border-color: #6e6e6e;
+}
+.audio-control a.jp-pause,
+.jp-playlist-icon,.jp-shuffle,
+.jp-repeat,
+.jp-repeat-off,
+.jp-shuffle-off{
+  border-color: #6e6e6e;
+  color: #6e6e6e;
+}
+.jp-social-option a,
+.jp-current-time{
+  color: #3c3c3c;
+}
+.center a:hover{
+  border-color: #2e2e2e;
+  color: #2e2e2e;
+}
+.center a{
+  border-color: #afafaf;
+}
+.about-author .text .user-info .view-all-post,
+.widget-latestnews article .text time,
+.cs-event-catgories a,
+.social-area ul li a,
+.album_heading time,
+.social-area ul li{
+  color: #666666;
+}
+.new-releases article .social-area{
+  border-color: #373737;
+}
+.new-releases article .social-area ul li:before{
+  border-color: #1a1a1a;
+}
+.wrapper-payerlsit li,
+.sortby ul li a {
+  background-color: #000;
+}
+.wrapper-payerlsit li.jp-playlist-current{
+  background-color: #0c0c0c;
+}
+.jp-seek-bar {
+  background-color: #727272;
+}
+.event article .text time,
+.payment_box p,
+.text-icon p,
+.jp-duration {
+  color: #999999;
+}
+.event article,
+.protected-icon{
+  background-color: rgba(22,22,22,0.7);
+}
+.event article:hover{
+  background-color: #161616;
+}
+.event article figure{
+  border-color: #262626 !important;
+}
+.event article figure span{
+  color: #727272;
+}
+.event article figure time{
+  color: #898989;
+}
+.event article:hover .map-marker,
+.event article:hover .play-icon,
+.password_protected label.before-icon:before {
+  color: #000;
+}
+.widget.widget-latestnews article figure{
+  border-color: #3b3835;
+}
+.widget.widget_gallery ul li a,
+.widget.widget_gallery ul li a img{
+  border-color: #3d464d;
+}
+.widget.widget-latestnews article figure:before,
+.widget.widget_gallery ul li:before{
+  background-color: rgba(0,0,0,0.6);
+}
+.twitter_sign{
+  background-color: #191919;
+}
+.tweets-wrapper{
+  background-color: #2094ca;
+}
+.gallerysec ul li figure figcaption,
+.postlist article figure a:after,
+footer{
+  background-color: rgba(0,0,0,0.6);
+}
+body.woocommerce-page ul.products li.product,
+body.woocommerce ul.products li.product,
+.woocommerce-page table.shop_table th,
+.widget_calendar #wp-calendar tbody td,
+.widget_calendar #wp-calendar thead th,
+.woocommerce table.shop_table th,
+.widget #wp-calendar tfoot a,
+#main .woocommerce-main-image img,
+#main .latest-video article,
+.postlist.blog article,
+#main .images .thumbnails a,
+#main footer{
+  border-color: #171717;
+}
+.widget_newsletter{
+  background-color: rgba(20,20,20,0.6);
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+.wpcf7-textarea,
+textarea{
+  background-color: #000;
+  border-color: #303030 !important;
+  color: rgba(153,153,153,0.3);
+}
+input[type="submit"]{
+  background-color: #232323;
+  border-color: #464646 !important;
+}
+.widget_newsletter form label,
+#newsletter_mess_1{
+  color: #292929;
+}
+.widget_newsletter form em{
+  color: #323232;
+}
+.share_post .social-network h6 a,
+.right-sec .btncontrole,
+.bay-album span,
+.sortby ul li a,
+.caption a,
+.bay-album,
+.tagcloud a,
+.bay-btn{
+  border-color: #fff;
+}
+.post-options li i{
+  color: #555555;
+}
+.pagination ul li a,
+.woocommerce-pagination ul li a,
+.woocommerce-pagination ul li span{
+  background-color: #000;
+  border-color: #fff;
+}
+.pagination ul li:hover a,
+.pagination ul li a.active,
+.woocommerce-pagination ul li span,
+.sortby ul li a:hover,
+.sortby ul li.active a,
+.tagcloud a:hover,
+.right-sec .btncontrole:hover,
+.share_post .social-network h6 a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.blogimg-hover a{
+ border-color: #fff; 
+}
+.album-detail .jp-controls-holder {
+    background-color: rgba(41, 41, 41, 0.3);
+}
+.detail-section ul.post-options li i,
+.widget-latestnews article h2 a{
+  color: #666666;
+}
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce ul.products li.product figcaption,
+.cart .quantity input[type="button"],
+.cart .quantity input[type="number"],
+.widget_recent_comments ul li,
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget-event article .text,
+.widget_layered_nav ul li,
+.widget_categories ul li,
+.widget_nav_menu ul li a,
+.product-categories li,
+.widget_archive ul li,
+.widget_pages ul li a,
+#wp-calendar tbody td,
+#wp-calendar tfoot a,
+.widget_links ul li,
+.widget_meta ul li{
+  background-color: rgba(20,20,20,0.6);
+}
+.widget-event article:hover .text h2 a,
+.widget_recent_comments ul li:hover,
+.widget_recent_entries ul li:hover,
+.widget_recent_entries ul li:hover,
+.widget_layered_nav ul li:hover,
+.widget_categories ul li:hover,
+.widget_nav_menu ul li a:hover,
+.product-categories li:hover,
+.widget_archive ul li:hover,
+.widget_pages ul li a:hover,
+.widget_links ul li:hover,
+.widget_meta ul li:hover,
+.widget_recent_comments ul li:hover a,
+.widget_recent_entries ul li:hover a,
+.widget_recent_entries ul li:hover a,
+.widget_layered_nav ul li:hover a,
+.widget_categories ul li:hover a,
+.product-categories li:hover a,
+.widget_archive ul li:hover a,
+.widget_links ul li:hover a,
+.widget_meta ul li:hover a,
+#wp-calendar caption{
+  color: #000;
+}
+.sociol-icons ul li:hover i{
+	color: #cfbd25;
+	-webkit-box-shadow:0 0 0 10px #000;
+	-moz-box-shadow:0 0 0 10px #000;
+	-o-box-shadow:0 0 0 10px #000;
+	box-shadow:0 0 0 10px #000;
+}
+body .sociol-icons ul li .icon-detail i{
+	background:#151515;
+	border-color: #3a3a3a;
+}

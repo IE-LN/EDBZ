@@ -1,0 +1,504 @@
+.widget{
+	margin: 0px 0px 22px 0px;
+}
+.widget_price_filter .price_slider_amount > input,
+.widget_nav_menu .menu-main-menu-container,
+.widget-latestnews article figure img,
+.widget-latestnews article figure a,
+.widget-latestnews article figure,
+.widget-event article figure img,
+.widget-event article .text,
+.widget_product_search form,
+.widget_gallery ul li a img,
+.widget-latestnews article,
+.widget_nav_menu ul li ul,
+.widget_nav_menu ul li a,
+.widget_gallery ul li a,
+.widget_pages ul li ul,
+.widget_nav_menu ul li,
+.widget-event article,
+.widget_pages ul li a,
+.widget_nav_menu ul,
+.widget_pages ul li,
+.widget_search form,
+.widget-latestnews,
+.widget_categories,
+.cs-heading-title,
+.widget_calendar,
+.widget_pages ul,
+.widget_links ul,
+.widget_nav_menu,
+.widget_text img,
+.tweets-wrapper,
+.widget select,
+#calendar_wrap,
+.widget_search,
+.twitter_sign,
+.widget-event,
+.widget_links,
+.widget_pages,
+#wp-calendar,
+.widget{
+	float: left;
+	width: 100%;
+}
+.widget_product_search input[type="text"],
+.widget-latestnews article figure:before,
+.widget_search form input[type="text"],
+.widget .product_list_widget li,
+.widget_gallery ul li:before,
+#wp-calendar tbody td a,
+.widget_layered_nav ul,
+.widget_categories ul,
+#wp-calendar caption,
+.product-categories,
+#wp-calendar tfoot,
+#wp-calendar tbody{
+	width: 100%;
+}
+.widget_product_search input[type="submit"],
+.widget-twitter .twitter_sign i.fa-twitter,
+.widget_search form input[type="submit"],
+.widget .product_list_widget li img,
+.widget-latestnews article figure,
+.widget_categories ul li a:before,
+.product-categories li a:before,
+.widget_gallery ul li,
+.widget_pages ul li a,
+.widget_links ul li a,
+#wp-calendar tfoot a,
+.tagcloud a{
+	float: left;
+}
+.cs-heading-title {
+	margin: 0px 0px 30px 0px;
+}
+.cs-heading-title h2{
+	position: relative;
+}
+.cs-heading-title h2:before, .text-icon a:after{
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 50px;
+	left: 0px;
+	bottom: -10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.cs-upcoming-gigs,
+.new-releases,
+.audio-plyer,
+.services,
+.event{
+	margin-bottom: 45px;
+}
+.album-detail .audio-plyer,
+.detail-cover-style figure,
+.col-md-8 .mapsection,
+.col-md-12 .mapsection,
+.sociol-icons{
+	margin-bottom: 25px;
+}
+.widget ul li{
+	list-style: none;
+}
+.widget-add{
+	border-top: 1px dotted;
+	padding: 9px 0px 0px 0px;
+}
+/*.........		Widget Categories Start	............ */
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_layered_nav ul li,
+.widget_categories ul li,
+.product-categories li,
+.widget_archive ul li,
+.widget_links ul li,
+.widget_meta ul li {
+	width:100%;
+	float:left;
+	position:relative;
+	text-align:right;
+	padding:6px 11px;
+	display:inline-block;
+	margin-top:3px;
+	font-weight:500;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.widget_recent_entries ul li,
+.widget_recent_entries ul li,
+.widget_recent_comments ul li,
+.widget_archive ul li,
+.widget_links ul li,
+.widget_meta ul li {
+	padding: 8px 11px;
+}
+.widget_categories ul li:first-child{
+	margin-top:0px;
+}
+.widget_recent_comments ul li a,
+.widget_recent_entries ul li a,
+.widget_recent_entries ul li a,
+.widget_layered_nav ul li a,
+.widget_categories ul li a,
+.product-categories li a,
+.widget_archive ul li a,
+.widget_links ul li a,
+.widget_meta ul li a{
+	font-size:12px;
+	float:left;
+	text-align:left;
+	display:inline-block;
+	font-weight: normal;
+}
+.widget_categories ul li a:before,
+.product-categories li a:before{
+	content: "\f0da";
+	margin: 6px 7px 0px 0px;
+}
+/*.........		Widget Categories End	............ */
+/*  Widget LatestNews Strat
+================================================== */
+.widget-latestnews article{
+	padding: 0px 0px 30px 0px;
+}
+.widget-latestnews article figure{
+	width: 89px;
+	height: 89px;
+	border: 1px solid;
+}
+.widget-latestnews article figure figcaption{
+	left: 50%;
+	top: 50%;
+	margin: 0px 0px 0px -9px;
+	opacity: 0;
+	font-size: 22px;
+}
+.widget-latestnews article:hover figure figcaption{
+	opacity: 1;
+	margin: -13px 0 0 -9px;
+}
+.widget-latestnews article figure:before,
+.widget_gallery ul li:before{
+	content: '';
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+}
+.widget-latestnews article:hover figure:before,
+.widget_gallery ul li:hover:before{
+	opacity: 1;
+}
+.widget-latestnews article .text{
+	padding-left: 110px;
+}
+.widget-latestnews article .text h2{
+	position: relative;
+	margin-bottom: 16px;
+}
+.widget-latestnews article .text h2:before{
+	content: '';
+	width: 30px;
+	height: 1px;
+	background-color: #b5b5b5;
+	position: absolute;
+	left: 0px;
+	bottom: -8px;
+}
+.widget-latestnews article:last-child{
+	margin: 0px;
+}
+.widget-latestnews article .text time{
+	font-size: 14px;
+}
+.widget .cs-post-title{
+	font-size: 16px;
+}
+/*.........		Widget Search Start	............ */
+.widget_product_search label{
+	display: none;
+}
+.widget_search form,
+.widget_product_search form{
+	position: relative;
+}
+.widget_search form input[type="text"]{
+	height: 41px;
+	padding: 0px 15px 0px 15px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin: 0px 0px 8px 0px;
+}
+.widget_product_search input[type="text"]{
+	height: 41px;
+	padding: 0px 90px 0px 15px;
+	margin: 0px 0px 8px 0px;
+}
+.widget_search form input[type="submit"]{
+	text-transform: capitalize;
+	padding: 5px 20px 6px 20px;
+}
+.widget_product_search input[type="submit"]{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-transform: capitalize;
+	padding: 8px 25px 9px 25px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-bottom: none;
+}
+/*.........		Widget Search End	............ */
+/* Widget Nav Menu
+================================================== */
+.widget_nav_menu ul li{
+	position:relative;
+	text-align:right;
+	display:inline-block;
+	padding:4px 11px 0px 11px;
+}
+.widget_nav_menu ul li:first-child{
+	border-top:none;
+}
+.widget_nav_menu ul li a, .widget_pages ul li a{
+	text-align:left;
+	display:inline-block;
+	padding:8px 11px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+.widget_nav_menu ul li ul{
+	position:relative;
+	padding:5px 10px 0px 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.widget_nav_menu ul li ul li{
+	padding:5px 0px;
+	margin:0px 0px 0px 0px;
+}
+.widget_nav_menu ul li ul li:first-child{
+	padding:5px 0px;
+	margin:0px 0px 0px 0px;
+	background:none;
+}
+/* Widgets Links
+================================================== */
+.widget_links ul li a{
+	text-align:left;
+	display:inline-block;
+}
+/* Widget Pages Start
+================================================== */
+.widget_pages ul li{
+	position:relative;
+	text-align:right;
+	padding:4px 0px 0px 0px;
+	display:inline-block;
+}
+.widget_pages ul li a{
+	text-align:left;
+	display:inline-block;
+}
+.widget_pages ul li ul{
+	position:relative;
+	padding:5px 20px 0px 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.widget_pages ul li ul li:first-child,
+.widget_pages ul li ul li{
+	padding:5px 0px;
+}
+/*  Widget Calendar Strat
+================================================== */
+#wp-calendar caption{
+	padding:9px 0 8px;
+	text-transform:uppercase;
+}
+#wp-calendar thead{
+	border-left: 1px solid;
+    border-right: 1px solid;
+}
+#wp-calendar thead th{
+	padding:3px 12px;
+	font-weight:300;
+}
+#wp-calendar tbody{
+	text-align:center;
+}
+#wp-calendar tbody td{
+	padding:0px 0px;
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+	font-size:11px;
+	border:1px solid;
+}
+#wp-calendar tbody td a{
+	height:100%;
+	display:block;
+	font-weight:bold;
+	padding:8px 0px 0px 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#wp-calendar tfoot a{
+	display:inline-block;
+	font-size:12px;
+	padding:3px 5px 3px 5px;
+	margin:10px 0px 0px 0px;
+	border:1px solid;
+}
+#wp-calendar tfoot #next a{
+	float:right;
+}
+.widget_tag_cloud .tagcloud,
+.widget_product_tag_cloud .tagcloud{
+	margin: -5px 0px 0px -5px;
+}
+.tagcloud a{
+	border: 1px solid;
+    font-size: 10px !important;
+    padding: 4px 18px;
+    text-transform: uppercase;
+    margin: 0px 5px 5px 0px;
+}
+/*=_-// Widget Gallery Start //-_=*/
+.widget_gallery ul{
+	margin: -8px 0px 0px -8px;
+}
+.widget_gallery ul li{
+	margin: 8px 0px 0px 8px;
+	position: relative;
+	list-style: none;
+	height: 105px;
+    width: 30%;
+}
+.col-md-3 .widget_gallery ul li{
+	width: 76px;
+	height: 76px;
+}
+.widget_gallery ul li a:before{
+	content: "\f067";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 26px;
+	margin: 0px 0px 0px -10px;
+	font-family: FontAwesome;
+	opacity: 0;
+}
+.widget_gallery ul li:hover a:before{
+	opacity: 1;
+	margin: -10px 0px 0px -10px;
+}
+.widget_gallery ul li a,
+.widget_gallery ul li a img{
+	border: 1px solid;
+	height: 100%;
+}
+.widget_gallery ul li a img{
+	border: none;
+}
+/*=_-// Widget Gallery End //-_=*/
+.widget .product_list_widget li{
+	margin: 0px 0px 15px 0px;
+}
+.widget .product_list_widget li img{
+	margin-right: 7px;
+}
+.widget .product_list_widget li a{
+	display: block;
+}
+.widget_price_filter .button{
+	margin: 0px 7px 0px 0px;
+}
+.widget_price_filter .price_label{
+	padding: 8px 0px 0px 0px;
+}
+.widget_price_filter .price_slider_amount > input {
+    margin: 0 0 5px;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+}
+.twitter_sign{
+	padding: 12px;
+}
+.tweets-wrapper:before{
+	content: '';
+	border-color: transparent #2094ca;
+    border-style: solid;
+    border-width: 13px 0 14px 15px;
+    position: absolute;
+    left: 55px;
+    bottom: -12px;
+    -webkit-transform: rotate(17deg);
+       -moz-transform: rotate(17deg);
+        -ms-transform: rotate(17deg);
+         -o-transform: rotate(17deg);
+            transform: rotate(17deg);
+}
+.tweets-wrapper{
+	margin-bottom: 8px;
+	padding: 35px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+}
+.tweets-wrapper article{
+	margin-bottom: 15px;
+}
+.tweets-wrapper article p{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+.widget-twitter .twitter_sign i.fa-twitter{
+	line-height: 20px;
+	margin: 10px 0px 0px 20px;
+	font-size: 30px;
+	color: #2094ca;
+}
+.widget_text img{
+	height: 100%;
+}
+.widget_text img.wp-smiley{
+	width: auto;
+	height: auto;
+}
+.widget select{
+	height: 40px;
+	padding: 9px;
+	border: 1px solid;
+	font-size: 14px;
+	font-weight: 300;
+}
+/*.........		Widget Event Start	............ */
+.widget-event article{
+	margin: 0px 0px 2px 0px;
+}
+.widget-event article .text{
+	padding: 20px 18px;
+}
+.widget-event article .text time{
+	text-transform: uppercase;
+}

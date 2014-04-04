@@ -1,0 +1,934 @@
+@charset "utf-8";
+/* Rtl Css */
+body{
+	direction: rtl;
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.logo,
+.subtitle h1:before, 
+.navigation, 
+.navigation ul li, .search-sec form, 
+.social-area .social-network, 
+.event header h2, 
+.event article figure, 
+.event article .text ul, 
+.copyright p, 
+.main-detail,
+.element_size_50, 
+.text-info ul, 
+.text-info p, 
+.text-info ul li i, 
+.text-info ul li span, 
+.rich_editor_text i, 
+ul.tick, .detail-cover-style .text a,
+.home-page .new-releases .cs-heading-title, 
+.new-releases .cs-heading-title,
+.home-page .new-releases .cs-heading-title h2, 
+.new-releases .cs-heading-title h2,
+.tagcloud, .share_post .tagcloud:before, 
+.widget-newslatter header, 
+.widget_categories ul li a:before, 
+.home-page .cs-heading-title,
+.widget_categories ul li a, 
+.widget_archive ul li a, 
+.cs-heading-title .section-title, 
+.widget_links ul li a, .widget_meta ul li a, 
+.widget_recent_entries ul li a, 
+.widget_search form input[type="submit"], 
+#wp-calendar tfoot a, .widget_recent_comments ul li a,
+.widget_tag_cloud a, .blog-date, .post-options li i, 
+.blog-text .text i, .about-author figure, .post-options li, 
+.tabs.horizontal .nav-tabs li,
+.follow-tweet,#comments .thumblist figure, 
+#comments .thumblist figure a, .thumblist .text header h6, 
+.thumblist .text header time, 
+.main-detail p span, .booking-checkbox input[type="checkbox"], 
+.main-detail .text input, .main-detail p input[type="submit"], 
+.latest-video article .text time, .main-detail select, 
+.booking-checkbox label, .button, .dropcap:first-letter, 
+.dropcap p:first-letter, .dropcaptwo:first-letter,
+.testimonial-v1 figure, .testimonial-v2 figure, 
+.testimonial-v3 figure, .testimonial-v4 figure, 
+.testimonial-v5 figure, .testimonial-v6 figure,
+.price-style2 .pricing-box .period, 
+.team-shortcode article.team-v4 .social-network a, 
+.search-sec form input[type="text"], 
+.cs-network-sec .social-network a,
+.widget-twitter .twitter_sign i.fa-twitter, 
+.twitter_sign p.twitter-follow, .widget-latestnews article .text p,
+ .pagination ul li, .breadcrumbs ul li,
+.share_post .social-network, .page-links span, 
+.detail-cont-right .countdownit, .detail-sec, 
+.read-loc ul li, .read-loc ul, .detail-sec ul li, 
+.detail-sec ul li i,
+#comments header,
+.latest-news article .text .category a, 
+.latest-news article .text time, 
+.left-area, 
+.sortby ul li,  
+.albums-list article ul li span, 
+.amazoon-icon, 
+.amazoon-icon a, 
+.detail-cont-left, 
+.medium-time, 
+.team-shortcode article.team-v3 .social-network a, 
+.price-style1, .price-style2, 
+.price-style3, 
+.widget .product_list_widget li img, 
+.widget_shopping_cart_content .cart_list.product_list_widget, 
+.shop_table.cart .actions .coupon, 
+.coupon > label, 
+.woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .rich_editor_text i, .rich_editor_text em, 
+.audio-control, 
+.jp-progress, 
+.album-detail .wrapper-payerlsit li a, 
+.album-detail .jp-playpause, 
+.album-detail .title-song, 
+.language-sec p, header #lang_sel_list, header .social-network, .cart-secc,
+.logo, .navigation, .new-releases header h2,
+.new-releases.single-view .social-area span, .album_heading time, .cs-event-catgories a,
+.element_size_25, .event article figure,
+.event-v2 article .text span, .event article .text time, .event-v2 article .text p,
+.widget-latestnews article figure, .social-area span, .meet-artist article figure figcaption .cs-lead-sec p,
+.event.albums-list article ul li a, .widget-event article .text time, .latest-video article figure figcaption h2,
+.post-options,.postlist.blog.blog-medium-view article figure,
+.comment-respond form p input[type="text"], .about-author .text .user-info .view-all-post,
+.col-md-9 .tagcloud i, .col-md-12 .tagcloud i, .comment-respond form p input[type="submit"], .sociol-icons{
+	float: right !important;
+}
+.flt-right, 
+.password_protected form label input[type="submit"], 
+.bay-btn, 
+.sortby, 
+footer .widget, 
+.copyright .social-network, 
+.cs-heading-title h2, 
+.comment-reply-title small, .sharenow, 
+.latest-video article .text a, .close, .search-sec, 
+.language-sec, .cs-network-sec,
+.widget-event article .text i, 
+.breadcrumbs ul, .right-sec, 
+.view-all, 
+.right-areas, 
+.album_share_post.share_post .social-network,  
+.woocommerce .star-rating, .woocommerce-page .star-rating, 
+.shop_table.cart .actions .checkout-button.button,
+.social-area ul, .cs-lead-sec i{
+	float: left !important;
+}
+.search-sec form label:before{
+	-webkit-transform: rotate(-258deg);
+	-moz-transform: rotate(-258deg);
+	-ms-transform: rotate(-258deg);
+	-o-transform: rotate(-258deg);
+	transform: rotate(-258deg);
+}
+.navigation ul ul{
+	left:auto;
+	right:0;
+}
+.search-sec form input[type="text"]{
+	margin-left: -90px;margin-right: 0px;
+}
+.search-sec form:hover input[type="text"]{
+	margin-left: 0px;
+}
+.subtitle h1:before{
+	margin: 3px 20px 0;
+}
+.search-sec form{
+	left:19px;
+	right:auto !important;
+}
+.search-sec form:after{
+	left:25px;
+	right:auto !important;
+}
+.search-sec form input[type="submit"]{
+	left:2px;
+	right:auto !important;
+}
+.pagenone .password_protected form label:before{
+	right:12px;
+}
+.pagenone .password_protected form label.search-icon{
+	left:5px;
+	right:auto;
+}
+.password_protected form .before-icon:before{
+	left:75px;
+	right:auto;
+} 
+.password_protected form label input[type="submit"]{
+	right:auto;left:3px;
+}
+.map-marker{
+	left:35px;
+	right:auto;
+}
+.event.albums-list article .play-icon{
+	left:0;
+	right:auto;
+}
+.new-releases article .text h2:before, 
+.event article .text h2:before{
+	right:0;
+}
+.play-icon i{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.blog-text .text i{
+	padding: 16px 14px 0 0;
+	margin: 0 0 20px 17px;
+}
+#respond form p.comment-form-author label:before, 
+#respond form p.comment-form-email label:before, 
+#respond form p.comment-form-website label:before, 
+#respond form p.comment-form-subject label:before, 
+#respond form p.comment-form-phone label:before{
+	right:14px;
+}
+.text-info p i{
+	margin-left:16px;
+	margin-right: 0;
+}
+.text-info ul{
+	position:relative;
+}
+.text-info .postel-text{
+	 margin:0 0 20px -26px;
+}
+.text-info ul li i{
+	margin-left:15px;
+	margin-right: 0;
+}
+.text-info ul li span{
+	margin-left: 35px;
+	margin-right: 0;
+}
+.text-info ul li:before{
+	right:55px;
+}
+.blog .flex-direction-nav .flex-prev{
+	right:5px;
+}
+.table thead > tr > th,
+.home-page .cs-heading-title{
+	text-align:right;
+}
+.gallerysec ul li figure figcaption i{
+	padding:15px 0 0;
+	text-align:center;
+}
+a.pp_close{
+	text-indent:10000px !important;
+}
+.gallerysec a i, .loadmore i{
+	margin-left:5px;
+}
+.list_styles ul li i{
+	margin: 0 0 0 10px;
+}
+.navigation ul ul ul{
+	left: auto;
+	right: 100%;
+}
+.widget-newslatter form input[type="submit"],
+.center{
+	left: 2px;right: auto;
+}
+blockquote{
+	border-left: none;
+	border-right: 7px solid;
+	padding: 0 28px 0 0px;
+}
+.share_post .tagcloud:before{
+	margin: 0 0px 0 9px;
+}
+.widget-newslatter header{
+	margin: 13px 0px 0 15px;
+}
+.widget_categories ul li a:before{
+	margin: 7px 0 0 7px;
+}
+.widget_categories ul li,
+.widget_recent_comments ul li{
+	text-align:left !important;
+}
+.widget_categories ul li a:before{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.widget_nav_menu ul li a, 
+.widget_pages ul li a, 
+.widget_recent_entries ul li a{
+	 text-align:right !important;
+}
+.blog-text .text{
+	padding: 0 89px 0 0;
+}
+.post-options li i{
+	margin: 0 0 0 9px;
+    padding: 7px 0 0;
+}
+.about-author .text{
+	padding:0 120px 0 0;
+}
+.cs-heading-title h2{
+	width:100%;
+}
+.widget-latestnews article .text h2:before{
+	right:0;
+}
+.comment-reply-link{
+	left:10px;
+	right:auto;
+}
+.blog-text .text h2:before,
+#comments ul li ul.children:before,
+.divider1:before{
+	left: auto;right: 0px;
+}
+.blog-text .text:before{
+	right: 4.6%;left: auto;
+}
+.share_post .social-network{
+	left: 9px;right: auto;
+}
+#comments ul li.depth-2 .children,
+#comments ul.children{
+	padding-left: 0px;padding-right: 20px;
+}
+#comments .thumblist .text{
+	padding: 0 60px 30px 0px;
+}
+#comments .thumblist .text:before{
+	left: auto;
+	right: 50px;
+}
+.comment-edit-link{
+	left: 51px;right: auto;
+}
+#comments .thumblist .text header {
+    margin: 0px -10px 14px 0px;
+    padding: 16px 10px 15px 0px;
+}
+#comments ul li ul.children li.depth-2:before, 
+#comments ul li ul.children li.depth-3:before{
+	left: auto;right: -19px;
+}
+#comments ul li ul.children li.depth-3:before{
+	left: auto;right: -41px;
+}
+#respond form p span{
+	margin: 0 5px 0 0px;
+	display:inline-block;
+}
+.main-detail .text label{
+	padding: 0 22px 0 0;
+}
+.latest-video article figure figcaption{
+	right:5px;
+	left:auto;
+}
+.booking-checkbox input[type="checkbox"]{
+	margin: 4px 0 0 11px;
+}
+.main-detail{
+	margin: 0 11px 40px 0px;
+}
+.panel-heading .panel-title > a.collapsed:after,
+ .panel-heading .panel-title > a:after{
+	right:10px;
+	left:auto;
+}
+.panel-heading .panel-title > a:before{
+	left:10px;
+	right:auto;
+}
+.toggle-sectn .panel-heading .panel-title > a:before{
+	left:10px;
+	right:auto;
+}
+.button a.big-btn i{
+	 margin: 3px 0 0 10px;
+}
+.shortgrid{
+	padding:0 0 15px 15px;
+}
+.button a{
+	margin: 0 0px 10px 10px;
+}
+.button a.medium-btn i{
+	margin: 2px 0px 0 7px;
+	padding: 0 0px 0 8px;
+}
+.button a.small-btn i{
+	margin: 1px 0px 0 7px;
+	padding: 3px 0px 0 7px;
+}
+.button a.small-btn{
+	margin: 11px 0px 0 10px;
+}
+.button a.medium-btn{
+	margin: 6px 0px 0 10px;
+}
+.dropcap:first-letter, .dropcap p:first-letter,
+ .dropcaptwo:first-letter{
+	margin: 7px 0px 0 20px;
+}
+.info-text:before{
+	left: auto;right: 15px;
+}
+.info-text:after{
+	left: auto;right: 27px;
+}
+.info-text{
+	padding: 30px 73px 30px 30px;
+}
+.tabs.horizontal .nav-tabs li a i{
+	margin: 4px 0px 0 9px;
+}
+.testimonial-v1 .text, .testimonial-v2 .text,
+.testimonial-v3 .text, .testimonial-v4 .text{
+	padding-left: 0px;padding-right: 11px;
+}
+.testimonial-v1 .text .testimonial-box:after, 
+.testimonial-v2 .text .testimonial-box:after{
+	left: auto;right: -27px;
+}
+.testimonial-v1 .testimonial-box blockquote, 
+.testimonial-v2 .testimonial-box blockquote, 
+.testimonial-v3 .testimonial-box blockquote, 
+.testimonial-v4 .testimonial-box blockquote, 
+.testimonial-v5 .testimonial-box blockquote, 
+.testimonial-v6 .testimonial-box blockquote{
+	border-right: none;
+	padding-right: 0px;
+}
+blockquote:before{
+	right: -7px;left: auto;
+}
+.testimonial-v5 figure, .testimonial-v6 figure{
+	float: none !important;
+}
+.messagebox .close{
+	left: 5px;right: auto;
+}
+.messagebox em{
+	margin: 3px 0px 0 30px;
+}
+.price-style2 .pricing-box h6.heading-color,
+.price-style2 .plan-header .price h1,
+.price-style2 .plan-header .price h1 span,
+.price-style2 .pricing-box .plan-inside ul li,
+.team-v2 .text h4, .team-v2 .text p,
+.team-shortcode article.team-v4 h4, 
+.team-shortcode article.team-v4 h5,
+.team-shortcode article.team-v4 .text p{
+	text-align: right;
+}
+.price-style2 .plan-header .price h1 span:after,
+.team-v2 .text header p:before,
+.team-shortcode article.team-v4 .text h5:before{
+	left: auto;right: 0px;
+}
+.price-style2 .pricing-box .period{
+	padding-right: 30px;padding-left: 0px;
+}
+.navigation ul ul li:after{
+	left: auto;right: -6px;
+}
+.widget-latestnews article .text p{
+ margin:0 0 0 4px !important;
+}
+.event article:before{
+ right:-13px;
+}
+.event article:after{
+ right:-4px;
+}
+.event-inn:before{
+ right:-20px;
+}
+.event:before, .event:after{
+ right:0;
+}
+.follow-tweet i{
+ margin:3px 0 0 7px;
+}
+.social-area .social-network{
+	margin-right: 0px;margin-left: 5px;
+}
+.home-page .cs-heading-title h2:after{
+	right: inherit;
+	left: inherit;
+	margin:0 10px 0 0;
+}
+.widget-twitter .twitter_sign p.twitter-follow {
+    padding: 0 7px 0 0;
+}
+.copyright .social-network {
+    padding: 0px 28px 0 0px;
+}
+.widget-event article .text i{
+	-webkit-transform: scale(-1);
+	-moz-transform: scale(-1);
+	-ms-transform: scale(-1);
+	-o-transform: scale(-1);
+	transform: scale(-1);
+	margin: -19px 0 0 -7px;
+}
+.albums-list article .bay-btn {
+    margin: -5px 16px 0 0px;
+}
+.pagination ul li a{
+	margin-left: 2px;margin-right: 0px;
+}
+.pagination ul li.next {
+    margin: 0 22px 0 0;
+}
+.pagination ul li.next:before {
+    left: auto;
+    right: -13px;
+}
+.pagination ul li.previs {
+    margin: 0 0 0 22px;
+}
+.pagination ul li.previs:before{
+	left: -13px;
+	right: auto;
+}
+.widget_categories ul li:after {
+    border-radius: 4px 0 0 4px;
+    left: 0;
+    right: auto;
+}
+.breadcrumbs ul li:before{
+	left: -12px;
+	right: auto;
+}
+.breadcrumbs ul li:last-child {
+    margin-right: 20px;
+}
+.event header h2{
+	width: auto;
+}
+.event article .last-span:after {
+    background-color: #0F080C;
+    height: 200%;
+    right: -25px;
+    left: auto;
+}
+.share_post .social-network {
+    margin: 5px 0 0 20px;
+}
+.post-btn{
+	margin: 0px 9px 0px 0px;
+}
+.page-links span{
+	margin: 0 0 0 6px;
+}
+.page-links span.page-links-title{
+	margin-left: 25px;margin-right: 0px;
+}
+.read-loc ul li i {
+    margin: 0 0 0 7px;
+}
+.detail-cont-right .countdownit .countdown_section:before{
+	left: auto;
+	right: -20%;
+}
+.detail-cont-right .countdownit {
+    padding: 8px 0px 30px 40px;
+}
+.icons-sec {
+    padding-left: 0px;padding-right: 30px;
+}
+.detail-cont-right .countdownit .countdown_section:first-child{
+	padding: 0px 0px 0px 35px;
+}
+.read-loc ul li {
+    margin: 0 0 10px 30px;
+}
+.detail-sec ul li{
+	margin: 0px 2px 0px 0px;
+}
+.detail-sec ul li:last-child {
+    padding: 7px 0 7px 1px;
+}
+.detail-sec ul li i {
+    margin: 0 0px 0 7px;
+}
+#comments .thumblist figure{
+	left: auto;right: 0px;
+}
+.sociol-icons ul li .icon-detail i {
+    margin-left: 10px;
+}
+.latest-news article .text p:before{
+	left:auto;
+	right:0;
+}
+.latest-news article .text .category a{
+	margin:0 4px 0 0;
+}
+.sortby ul li{
+	margin:0 6px 0 0;
+}
+.event article .text ul li{
+	margin:0 14px 0 0;
+}
+.albums-list article ul li span{
+	padding:0 0 0 5px;
+}
+.event article{
+	padding:11px 15px 13px 30px;
+}
+.event.event-view-2 article .text{
+	float:none !important;
+	padding:6px 132px 20px 42px;
+}
+.event.event-view-2 article .text ul li i {
+    margin:0 0 0 5px;
+}
+.postlist.blog.blog-medium-view .blog-text{
+	padding:0 15px 0 0;
+}
+.team-shortcode article.team-v3 .text, 
+.team-shortcode article h5{
+	text-align:right;
+}
+.team-shortcode article.team-v4 .text h5:before, 
+.team-shortcode article.team-v3 .text h5:before{
+	left:auto;
+	right:0;
+}
+.tabs.vertical .nav-tabs li a i {
+    margin: 0 0 0 7px;
+}
+.price-table{
+	margin:20px 0 35px 11px;
+}
+.price-style2{
+	margin:20px 0 35px 9px;
+}
+.price-style3{
+	margin-left:9px;	 
+	margin-right:0;	 
+}
+.woocommerce ul.products li.product .add_to_cart_button, 
+.woocommerce a.button{
+	float: none !important;
+	display:inline-block !important;
+	text-align:center;
+}
+.widget_price_filter .button {
+    margin: 0 0 0 7px;
+}
+.widget .product_list_widget li img{
+	margin:0 0 0 7px;
+}
+.coupon > label{
+	margin:6px 0 0 10px;
+}
+.woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text{
+	margin:0 0 0 4px;
+}
+.shop_table.cart .actions .coupon{
+	margin-left:2px;
+}
+.woocommerce .lost_password {
+    margin: 6px 10px 0 0;
+}
+.woocommerce-message:before, .woocommerce-error:before, .woocommerce-info:before{
+	left:auto;
+	right: 1em;
+}
+.woocommerce .woocommerce-info .showcoupon, .woocommerce .woocommerce-info .showlogin{
+	display:inline-block;	 
+}
+.woocommerce-message, .woocommerce-error, .woocommerce-info{
+	padding:1em 3.5em 1em 1em; 
+} 
+.main-menu .container {
+    padding:0 30px 0 0px;
+}
+.woocommerce #payment ul.payment_methods li, .woocommerce-page #payment ul.payment_methods li {
+    text-align: right;
+}
+.woocommerce #payment ul.payment_methods li input, .woocommerce-page #payment ul.payment_methods li input {
+    margin:0 0 0 1em;
+}
+.woocommerce #payment div.payment_box:after, .woocommerce-page #payment div.payment_box:after{
+	left:auto;
+	right:0;
+	margin:-1em 2em 0 0;
+}
+.cs_shop_wrap .products .star-rating{
+	float:none !important;
+	display:inline-block !important;
+}
+.team-shortcode {
+    margin-right: -30px;
+	 margin-left:0px;
+}
+
+.team-shortcode article.team-v2:first-child{
+	margin:0 0px 0 0 !important;
+}
+.team-shortcode article.team-v3{
+	margin:0 0 20px 26px;
+}
+.team-shortcode-v4{
+	margin-right:0px !important;	
+}
+.messagebox.alert.alert-info{
+	text-align:right !important;
+}
+.messagebox .close {
+    margin:0 0 0 -23px;
+}
+.audio-control{
+	border-left: 1px solid;
+	border-right: none;
+}
+.jp-playlist-icon{
+	right:auto;
+	left:0;
+}
+.jp-current-time{
+	left:auto;
+	right:0;
+}
+.jp-playlist-icon{
+	border-right: 1px solid;
+	border-left: none;
+}
+.main-progress{
+	margin:0 100px 0 0;
+}
+.jp-duration{
+	right:auto;
+	left:28%;
+}
+.jp-progress{
+	padding:13px 8% 13px 36%;
+}
+.jp-playlist-icon span{
+	margin:0 0 0 12px;
+}
+.album-detail .jp-current-time {
+    left: 11px;
+    right: auto; 
+}
+.album-detail .jp-progress {
+    margin: 4px 13px 0 0;
+    padding: 13px 3% 13px 15%;
+	width:81%;
+}
+.album-detail .audio-control{
+	margin-top:5px;
+	border-left: 1px solid;
+	border-right: none;
+}
+.wrapper-payerlsit li:before{
+	left:auto;
+	right:0;
+}
+.album-detail .wrapper-payerlsit li:after{
+	left:auto;
+	right:37px;
+}
+.album-detail .wrapper-payerlsit li a {
+    padding: 4px 0 0 20px;
+}
+.album-detail .title-song {
+    padding: 0 12px 0 0;
+}
+.album-detail .jp-playpause{
+	margin:0 0 0 3px;
+}
+.cart-secc {
+    border-right: 1px solid;
+	border-left: none;
+    margin: 0 20px 0 0;
+}
+header #lang_sel_list {
+    margin:0 16px 0 0;
+}
+.logo{
+	margin:0 0 0 1.3%;
+}
+.center{
+	left:0;
+	right:auto;
+}
+.event-v2 article figure{
+	margin: 0 0 0 0px;
+}
+.event.event-v2 .cs-post-title{
+	text-align:right;
+	width:100%;
+}
+.cs-heading-title h2:before, .text-icon a:after,
+.widget-latestnews article .text h2:before{
+	right:0;
+}
+.center a i{
+	margin:-5px 15px 0 0;
+}
+.center a.next-btn i{
+	margin:-5px 8px 0 0;
+}
+.widget-latestnews article .text{
+	padding-right:110px;
+	padding-left:0px;
+}
+.social-area ul li a i{
+	margin-left:5px;
+}
+.event.albums-list article figure{
+	padding: 7px 0px 0px 20px;
+}
+.widget_newsletter form input[type="submit"]{
+	left:3px;
+    right:auto;
+	padding:10px 20px;
+}
+#process_newsletter_1{
+	display:none;
+}
+.widget_newsletter form input[type="text"]{
+	padding: 7px 16px 7px 0;
+}
+.event.albums-list article .text,
+.event.albums-list article figure{
+	float:none !important;
+}
+.event article .text ul li {
+    margin: 0 0 0 14px;
+}
+.widget_recent_entries ul li, 
+.widget_recent_entries ul li, 
+.widget_recent_comments ul li, 
+.widget_layered_nav ul li, 
+.widget_categories ul li, 
+.product-categories li, 
+.widget_archive ul li, 
+.widget_links ul li, 
+.widget_meta ul li{
+	text-align:left;
+}
+.widget_search form input[type="submit"]{
+	left:4px;
+	right:auto;
+}
+.event article .text{
+	padding-right: 70px;
+}
+.gallerysec ul{
+	margin: 0 -2px 0 0;
+}
+.gallerysec .gallery-three-col li{
+	margin:0 2px 1px 0;
+}
+.blog-text .text i{
+	padding: 6px 14px 0 0;
+}
+.post-options li{
+	padding:0 0 0 30px;
+}
+.blockquote blockquote{
+	border-right:1px solid #282828;
+	border-left:none;
+}
+.blockquote blockquote:after{
+	right: -16px;
+}
+.event.event-v2 article .text{
+	padding: 36px 30px 31px 0px;
+	float:right;
+}
+.event-v2 article .text i{
+	margin: 0px 0px 0px 7px;
+}
+.event-v2 article .text span {
+    margin: 0 0px 0 6px;
+}
+.event article figure{
+	border-left:1px dotted;
+	border-right:none;
+}
+.postlist.blog.blog-medium-view .blog-text .text {
+    margin: 0 164px 0 0px;
+}
+#comments .text p {
+    margin: 0 130px 0 0;
+    padding: 0 20px 0 0;
+	border-left: none;
+border-right: 1px solid #161616;
+}
+#comments .thumblist .text header {
+    margin: 0 0 14px -10px;
+    padding: 16px 10px 15px 0px;
+}
+.comment-respond form p .fa-user, .comment-respond form p .fa-envelope, .comment-respond form p .fa-align-left{
+	right:15px;
+	left:auto;
+}
+.about-author .text .user-info a i {
+    margin: 0 0 0 5px;
+}
+.widget_newsletter form em{
+	float:none;
+	margin-left: 10px;
+	margin-: 10px;
+}
+.sociol-icons:before{
+	display:none;
+}
+.comment-respond form p input[type="text"] {
+    padding: 0 50px 0 0;
+}
+.sociol-icons{
+	direction:ltr;
+}
+.comment-respond form p textarea{
+	padding: 12px 10px 0 0;
+	padding-left:0;
+}
+input[type="text"], input[type="email"] {
+    padding: 7px 16px 7px 0;
+}
+.comment-respond form p span{
+	padding: 0 170px 0 0;
+	padding-left:0;
+}
+.products .onsale{
+	left:25px;
+	right:auto;
+}
+.panel-title > a i{
+	margin: 0 0 0 9px;
+}
+.panel-title > a{
+	padding:10px 9px 10px 0;
+}
