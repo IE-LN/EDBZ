@@ -262,7 +262,8 @@ figcaption{
   /*padding: 24px 25px;*/
   margin: 0px 0% 0px 1.2%;
 }
-/*========= Defult Navigation Style ==========*/
+/*========= 
+Defult Navigation Style ==========*/
 .navigation{
   float: left;
 }
@@ -346,7 +347,8 @@ figcaption{
   margin: 0px 2.4% 0px 0px;
   width: 15%;
 }
-/* ========= Language Section Style ============= */
+/* =========
+Language Section Style ============= */
 #lang_sel{
   margin: 0px 5px 0px 0px;
   float: right;
@@ -513,6 +515,14 @@ header{
 .wrapper #banner #flexslider1.cs-header-view {
     position: inherit;
     width: 100%;
+}
+.wrapper_boxed #banner.cs-header-view {
+	margin: 0 auto;
+    position: inherit;
+    width: 1160px;
+	margin-left: -48px;
+	margin-bottom: 40px;
+	margin-top: -65px;
 }
 .wrapper_boxed #banner .cs-background-view {
     position: fixed;
@@ -890,6 +900,9 @@ header{
   -moz-border-radius:100%;
   -webkit-border-radius:100%;
 }
+.center a.no-border {
+	border: none;
+}
 .center a i{
   font-size: 50px;
   margin: -5px 0 0 9px;
@@ -914,6 +927,9 @@ header{
 .new-releases article{
   width: 215px;
   margin-right: 20px;
+}
+.new-releases article.last {
+	margin-right: 0px;
 }
 .col-md-12 .new-releases article,
 .col-md-9 .new-releases article{

@@ -392,7 +392,7 @@ function cs_amimate(id){
 		var Data = [
 			{ "Class" : "column_100" , "title" : "100" , "element" : ["gallery", "slider", "blog", "news", "event", "album", "review", "recipe", "testimonial", "team", "client", "contact", "column", "divider", "message_box", "image_frame", "map", "video", "quote", "dropcap", "pricetable","services", "tabs", "accordion", "prayer", "advance_search", "parallax", "now_playing"] },
 			{ "Class" : "column_75" , "title" : "75" , "element" : ["gallery", "slider", "blog", "news", "event", "album", "review", "recipe", "testimonial", "team", "client", "contact", "column", "divider", "message_box", "image_frame", "map", "video", "quote", "dropcap", "pricetable","services", "tabs", "accordion", "advance_search", "prayer", "now_playing"] },
-			{ "Class" : "column_67" , "title" : "67" , "element" : ["album"] },
+			{ "Class" : "column_67" , "title" : "67" , "element" : ["column", "album"] },
 			{ "Class" : "column_50" , "title" : "50" , "element" : ["gallery", "slider", "blog", "news", "event", "album", "review", "recipe", "testimonial", "team", "client", "contact", "column", "divider", "message_box", "image_frame", "map", "video", "quote", "dropcap", "pricetable","services", "tabs", "accordion", "advance_search", "prayer", "now_playing"] },
 			{ "Class" : "column_33" , "title" : "33" , "element" : ["column", "album"] },
 			{ "Class" : "column_25" , "title" : "25" , "element" : ["column", "album", "divider", "message_box", "image_frame", "map", "video", "quote", "dropcap","pricetable","services","pastor", "now_playing"] },
