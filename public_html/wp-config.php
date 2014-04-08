@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'bitnami_wordpress');
+define('DB_NAME', 'insomnia_edmbizcom');
 
 /** MySQL database username */
-define('DB_USER', 'bn_wordpress');
+define('DB_USER', 'insomnia_edmcom');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'c39c2433ab');
+define('DB_PASSWORD', 'Nxc?O;=#kl[F');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
