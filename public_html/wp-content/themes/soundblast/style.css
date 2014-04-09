@@ -682,7 +682,7 @@ header{
   position: absolute;
   left: 10px;
   top: 0;
-  text-align: center; 
+  text-align: center;
 }
 .volume-wrap a.jp-volume-max {
   left: auto;
@@ -922,14 +922,17 @@ header{
   position: relative;
 }
 .cycle-slideshow {
-    float: left;
+    display:inline-block;
     width: 100%;
 }
 .new-releases article{
   width: 215px;
   margin-right: 20px;
 }
-.new-releases article.last {
+.cycle-slideshow article {
+	display:inline-block;
+}
+.cycle-slideshow:last-child {
 	margin-right: 0px;
 }
 .col-md-12 .new-releases article,
@@ -1249,6 +1252,19 @@ header{
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
 }
+.event-v2 .map-marker{
+	display:inline-block;
+	top: 90px;
+	width:60px;
+	height:100%;
+	padding-top:11%;
+	right:0px;
+	top:0px;
+	border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+	background-color:#282828;
+}
 .event-map{
   display: none;
   margin-top: 10px;
@@ -1284,6 +1300,11 @@ header{
     float: right;
     width: 55%;
 }
+.event-v2 article .day{
+	display:inline-block;
+	float:right;
+	margin-right: 65px;
+}
 .event-v2 article figure{
   width: 139px;
   height: 119px;
@@ -1291,17 +1312,46 @@ header{
   margin: -20px 20px 13px -25px;
 }
 .event-v2 article .text{
+  padding-top: 20px;
   padding-left: 0px;
   padding-bottom: 36px;
 }
-.event-v2 article .text span{
+.event-v2 article .text span{	
+  display:inline-block;
+  border:solid 1px white;
   float: left;
-  margin: 0px 6px 0px 0px;
+  margin: 10px 6px 0px 0px;
+  padding: 5px 15px;
+  font-size:14px;
+}
+.event-v2 article .text span time{
+	color:white;
 }
 .event-v2 article .text p{
+  display:inline-block;
+  width:70%;
   padding-right: 0px;
-  margin-top: 0px;
+  margin-bottom:10px;
   float: left;
+  color:white;
+  font-size:13px;
+}
+.event-v2 article figure {
+	margin: 15px 20px 35px 0px;
+}
+/*.event-v2 article .gray-box{
+	float:right;
+	display:inline-block;
+	min-height:100%;
+	min-width:20%;
+	background-color:#282828;
+}
+*/
+.event-v2 article .text h2.cs-heading-color a, .new-releases article .text h2.cs-post-title a {
+	color:#4dbd00;
+}
+.event-v2 article .text h2.cs-heading-color a:hover, .new-releases article .text h2.cs-post-title a:hover {
+	text-decoration:underline;
 }
 /*========================
 About Author Section

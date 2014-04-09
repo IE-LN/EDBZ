@@ -541,4 +541,10 @@ width: 280px;
 .tabs.vertical .tab-content{
 	padding:30px 21px 31px;
 }
+.event-v2 article a.map-marker{
+	display:none;
+}
+.event-v2 article .day{
+	margin-right: 0px;
+}
 }

@@ -180,7 +180,9 @@
 							}
 					?>
                                 <article <?php post_class($no_image_class);?>>
-                                	
+                                	<?php if($cs_node->cs_event_view == "With Images"){ ?>
+                                    <h5 class="day"><?php echo get_the_date('l'); ?></h5>
+                                    <?php } ?>
                                     <?php if($cs_node->cs_event_view == "Without Images"){ ?>
                                 	<figure>
                                     	<span><span><?php echo date('M',strtotime($event_from_date));?></span> <br /> <?php echo date('d',strtotime($event_from_date));?></span>
@@ -198,12 +200,13 @@
                                         <h2 class="cs-post-title cs-heading-color"><a class="colrhover" href="<?php the_permalink();?>"><?php echo substr(get_the_title(), '0', '40');if(strlen(get_the_title())>40){ echo '...';} ?></a></h2>
                                        
                                        		<?php if($cs_node->cs_event_view == "With Images"){ ?>
-                                            <span><i class="fa fa-calendar"></i><?php echo get_the_date(); ?></span>
+                                            <p><?php echo cs_get_the_excerpt($cs_node->cs_event_excerpt,false) ?>...</p>
+                                            <!--<span><i class="fa fa-calendar"></i><?php echo get_the_date(); ?></span>-->
                                             <?php } ?>
                                             
 									   		<?php 
 											  if ( $cs_node->cs_event_time == "Yes" ) {
-											   echo "<time>";
+											   echo "<span><time>";
 												if ( $cs_event_meta->event_all_day != "on" ) {
 													echo $cs_event_meta->event_start_time; if($cs_event_meta->event_end_time <> ''){ echo "-";  echo $cs_event_meta->event_end_time; }
 													if($cs_event_meta->event_end_time <> '' or $cs_event_meta->event_end_time <> ''){
@@ -214,22 +217,26 @@
 												}else{
 													_e("All",'Soundblast') . printf( __("%s day",'Soundblast'), ' ').' :: ';
 												}
-												echo "</time>";
+												echo "</time></span>";
 											  }
-											?>
-                                            <?php if($cs_node->cs_event_view == "With Images"){ 
+											?>                                            <?php if($cs_node->cs_event_view == "With Images"){ 
 											if($loc_address <> ""){
 											?>
-                                            <br />
+                                            <!--<br />
                                             <p><i class="fa fa-map-marker"></i><?php echo $loc_address; ?></p>
-                                            <?php }} ?>
+-->                                            <?php }} ?>
                                        
                                        <?php if($cs_node->cs_event_view == "Without Images"){ ?>
                                        <p><?php echo cs_get_the_excerpt($cs_node->cs_event_excerpt,false) ?></p>
                                        <?php } ?>
                                        
-                                       <?php if($event_loc_lat <> ""  && $event_loc_long <> '' && $cs_event_meta->event_map == 'on'){?> <a class="map-marker" onclick="show_mapp('<?php echo $post->ID; ?>', '<?php echo $address_map;?>', '<?php echo $event_loc_lat;?>', '<?php echo $event_loc_long;?>', '<?php echo $event_loc_zoom;?>', '<?php echo home_url() ?>','<?php echo get_template_directory_uri() ?>')"><i class="fa fa-map-marker fa-2x"></i></a><?php }?>
                                     </div>
+                                
+								<?php /*if($event_loc_lat <> ""  && $event_loc_long <> '' && $cs_event_meta->event_map == 'on'){?> <div class="gray-box"><a class="map-marker" onclick="show_mapp('<?php echo $post->ID; ?>', '<?php echo $address_map;?>', '<?php echo $event_loc_lat;?>', '<?php echo $event_loc_long;?>', '<?php echo $event_loc_zoom;?>', '<?php echo home_url() ?>','<?php echo get_template_directory_uri() ?>')"><i class="fa fa-play fa-2x"></i></a></div><?php }*/?>
+								
+                                <?php if($cs_node->cs_event_view == "With Images"){ ?>
+                                <a class="map-marker" href="<?php the_permalink();?>"><i class="fa fa-play fa-2x"></i></a>
+                                <?php } ?>
                                 
                                 <?php 
 								 $cs_map_show = false;
