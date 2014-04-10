@@ -935,6 +935,10 @@ header{
 .cycle-slideshow:last-child {
 	margin-right: 0px;
 }
+.highlight-box{
+	max-height:307px;
+	width:110%;
+}
 .col-md-12 .new-releases article,
 .col-md-9 .new-releases article{
   width: 250px;
@@ -1309,7 +1313,7 @@ header{
   width: 139px;
   height: 119px;
   border: none;
-  margin: -20px 20px 13px -25px;
+  margin: 15px 20px 35px 0px;
 }
 .event-v2 article .text{
   padding-top: 20px;
@@ -1336,17 +1340,6 @@ header{
   color:white;
   font-size:13px;
 }
-.event-v2 article figure {
-	margin: 15px 20px 35px 0px;
-}
-/*.event-v2 article .gray-box{
-	float:right;
-	display:inline-block;
-	min-height:100%;
-	min-width:20%;
-	background-color:#282828;
-}
-*/
 .event-v2 article .text h2.cs-heading-color a, .new-releases article .text h2.cs-post-title a {
 	color:#4dbd00;
 }

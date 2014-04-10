@@ -401,6 +401,36 @@
 .sociol-icons:before{
 	display:none;
 }
+.event-v2 article a.map-marker{
+	display:none;
+}
+.event-v2 article .day{
+	margin-right: 0px;
+}
+.event-v2 article .text p{
+	width:100%;
+}
+.event-v2 article figure{
+	display:block;
+	margin-top:0px;
+}
+.event-v2 article .text h2{
+	display:block;
+	clear:both;
+}
+#banner.main{
+	display:none;
+}
+.element_size_33 .cs-upcoming-gigs img{
+	width:100%;
+}
+.highlight-box{
+	max-height:inherit;
+}
+.event article .text span time, .event article .text p{
+	display:block;
+	clear:both;
+}
 }
 /*==============================================	Mobile Portrait Query	==============================================*/
 @media (max-width: 480px) {
@@ -546,5 +576,32 @@ width: 280px;
 }
 .event-v2 article .day{
 	margin-right: 0px;
+}
+.event-v2 article .text p{
+	width:100%;
+}
+.event-v2 article .text h2{
+	display:block;
+	clear:both;
+}
+.event-v2 article figure{
+	display:block;
+	margin-top:0px;
+}
+#banner.main{
+	display:none;
+}
+.element_size_33 .cs-upcoming-gigs img{
+	width:100%;
+}
+.new-releases .center{
+	display:none;
+}
+.event article .text span time, .event article .text p{
+	display:block;
+	clear:both;
+}
+.highlight-box{
+	max-height:inherit;
 }
 }
