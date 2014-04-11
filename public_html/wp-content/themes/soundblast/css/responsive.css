@@ -60,6 +60,9 @@
 .sociol-icons:first-of-type:before{
 	display:none;
 }
+.element_size_33 .cs-upcoming-gigs img{
+	width:95%;
+}
 }
 /*==============================================	Tablet Query	==============================================*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -202,6 +205,30 @@
 }
 .sociol-icons:first-of-type:before{
 	display:none;
+}
+.element_size_33 .cs-upcoming-gigs img{
+	width:100%;
+}
+.highlight-box{
+	max-height:inherit;
+}
+.new-releases .highlight-box article{
+  width: 32%;
+  margin-right: .5%;
+}
+.highlight-box article figure, .highlight-box article .text{
+  width: 100%;
+}
+.event-v2 article .text p{
+	width:55%;
+}
+.event-v2 .map-marker{
+	padding-top:22%;
+}
+.event-v2 article .text span{
+	display:block;
+	clear:both;
+	margin-top:0px;
 }
 }
 /*==============================================	Mobile Landscape Query	==============================================*/
@@ -431,6 +458,9 @@
 	display:block;
 	clear:both;
 }
+.wpcf7 input.medium, .wpcf7 select{
+	width:100%;
+}
 }
 /*==============================================	Mobile Portrait Query	==============================================*/
 @media (max-width: 480px) {
@@ -603,5 +633,8 @@ width: 280px;
 }
 .highlight-box{
 	max-height:inherit;
+}
+.wpcf7 input.medium, .wpcf7 select{
+	width:100%;
 }
 }

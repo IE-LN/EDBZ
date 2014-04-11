@@ -1258,7 +1258,6 @@ header{
 }
 .event-v2 .map-marker{
 	display:inline-block;
-	top: 90px;
 	width:60px;
 	height:100%;
 	padding-top:11%;
@@ -2248,7 +2247,8 @@ form{
   margin-bottom: 13px;
 }
 input[type="text"],
-input[type="email"]{
+input[type="email"],
+select{
   height: 50px;
   width: 100%;
   padding: 7px 0px 7px 16px;
@@ -2821,4 +2821,23 @@ body h2, body h4, body h6 {
 }
 .speaker img {
 	margin-bottom:15px;
+}
+a.underline-hover:hover{
+	text-decoration:underline;
+}
+
+/* Contact Form */
+.wpcf7 input.medium, .wpcf7 select{
+	width:45%;
+}
+.wpcf7 select{
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+	-moz-appearance: none; /* Removes Default Firefox style*/
+	background: #000 url(images/drop-arrow.png) no-repeat 95% center;
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+	text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+	border:1px solid #333;
+	color:#333;
+	font-size: 20px;
+  	font-weight: 300;
 }
