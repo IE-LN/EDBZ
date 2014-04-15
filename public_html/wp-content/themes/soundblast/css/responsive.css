@@ -63,6 +63,21 @@
 .element_size_33 .cs-upcoming-gigs img{
 	width:95%;
 }
+.postlist.blog.blog-medium-view article .blog-text figure{
+	margin:0px 15px 0px 0px;
+	padding:0px 5px 15px 20px;
+    width:15%;
+	display:inline-block;
+	clear:none;
+}
+.postlist.blog.blog-medium-view article .blog-text .text{
+	/*float:left;*/
+	display:inline-block;
+    margin:0px 0px 30px 0px;
+    width:75%;
+	padding:0px 0px 0px 0px;
+	clear:none;
+}
 }
 /*==============================================	Tablet Query	==============================================*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -230,6 +245,24 @@
 	clear:both;
 	margin-top:0px;
 }
+.new-releases .center{
+	display:none;
+}
+.postlist.blog.blog-medium-view article .blog-text figure{
+	margin:0px 15px 0px 0px;
+	padding:0px 5px 15px 20px;
+    width:15%;
+	display:inline-block;
+	clear:none;
+}
+.postlist.blog.blog-medium-view article .blog-text .text{
+	/*float:left;*/
+	display:inline-block;
+    margin:0px 0px 30px 0px;
+    width:75%;
+	padding:0px 0px 0px 0px;
+	clear:none;
+}
 }
 /*==============================================	Mobile Landscape Query	==============================================*/
 @media (max-width: 767px) {
@@ -358,15 +391,6 @@
 .latest-video article{
 	width:100%;
 }
-.postlist.blog.blog-medium-view article figure{
-	margin:0 0 10px;
-    width:100%;
-}
-.postlist.blog.blog-medium-view .blog-text .text{
-	float:left;
-    margin:0;
-    width:100%;
-}
 .shortgrid{
 	width:100% !important;
 }
@@ -460,6 +484,28 @@
 }
 .wpcf7 input.medium, .wpcf7 select{
 	width:100%;
+}
+.speaker-column{
+	display:block;
+	width:100%;
+	padding-right:0%;
+}
+.new-releases .center{
+	display:none;
+}
+.postlist.blog.blog-medium-view article .blog-text figure{
+	display:inline-block;
+	padding:0px 5px 0px 0px;
+	margin:0px 5px 0px -5px;
+	clear:none;
+	width:20%;
+}
+.postlist.blog.blog-medium-view article .blog-text .text{
+	display:inline-block;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 30px 0px;
+	clear:none;
+	width:75%;
 }
 }
 /*==============================================	Mobile Portrait Query	==============================================*/
@@ -636,5 +682,24 @@ width: 280px;
 }
 .wpcf7 input.medium, .wpcf7 select{
 	width:100%;
+}
+.speaker-column{
+	display:block;
+	width:100%;
+	padding-right:0%;
+}
+.postlist.blog.blog-medium-view article .blog-text figure{
+	display:inline-block;
+	padding:0px 5px 0px 0px;
+	margin:0px 5px 0px -5px;
+	clear:none;
+	width:20%;
+}
+.postlist.blog.blog-medium-view article .blog-text .text{
+	display:inline-block;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 30px 0px;
+	clear:none;
+	width:75%;
 }
 }

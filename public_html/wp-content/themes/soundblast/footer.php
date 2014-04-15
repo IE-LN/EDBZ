@@ -105,7 +105,7 @@
 				?> 
 				<?php echo do_shortcode(htmlspecialchars_decode($cs_theme_option['powered_by'])); ?></p>
                 <?php cs_social_network();?>
-                <a id="back-top" class="gotop" href="#"><i class="fa fa-reply"></i></a>
+                <!--<a id="back-top" class="gotop" href="#"><i class="fa fa-reply"></i></a>-->
             
             <!-- Container End -->
         </div>

@@ -57,6 +57,7 @@
                         <div class="blog-text webkit">
                         	<figure>
                             <?php
+							if($cs_node->cs_blog_view != "blog-medium" ){
                                 if( $post_view == "Slider" and $post_slider <> "" ){
                                      cs_flex_slider($width, $height,$post_slider);
                                 }elseif($post_view == "Single Image"){
@@ -84,10 +85,15 @@
                                 </div>    
                                 <?php
                                 }
+							} else {
 								?>
+                                <span><span><?php echo date('M',strtotime($event_from_date));?></span> <br /> <?php echo date('d',strtotime($event_from_date));?></span>
+                                <?php
+							}?>
                             </figure>
                             <div class="text">
                                 <h2 class="cs-post-title cs-heading-color"><a href="<?php the_permalink();?>" class="colrhover"><?php echo substr(get_the_title(), 0, 130); if(strlen(get_the_title())>130) echo '...'; ?></a></h2>
+                                <?php if($cs_node->cs_blog_view != "blog-medium" ){ ?>
                                  <ul class="post-options">
                                     <li><i class="fa fa-clock-o"></i><?php echo get_the_date(); ?></li>
                                     <?php
@@ -103,9 +109,13 @@
                                         if ( comments_open() ) {  echo "<li><i class='fa fa-comment'></i>"; comments_popup_link( __( '0 Comment', 'Soundblast' ) , __( '1 Comment', 'Soundblast' ), __( '% Comment', 'Soundblast' ) ); }
                                         cs_featured(); ?>
                                 </ul>
-                                
+                                <?php } ?>
                                 <?php if($cs_node->cs_blog_description == "yes"){?>
+                                	 <?php if($cs_node->cs_blog_view != "blog-medium" ){ ?>
                                      <p><?php echo cs_get_the_excerpt($cs_node->cs_blog_excerpt,true) ?></p>
+                                     <?php } else { ?>
+                                     <p><?php echo cs_get_the_excerpt($cs_node->cs_blog_excerpt,false) ?>...</p>
+                                     <?php } ?>
                                 <?php } ?>
                             </div>
                         </div>
