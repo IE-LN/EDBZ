@@ -55,7 +55,7 @@ h5{
 h6{
   font-size: 14px;
 }
-/* Unit deta testing   ===========================*/
+/* Unit deta testing    ===========================*/
 li {
     list-style: disc outside none;
     line-height: 23px;
@@ -1563,7 +1563,7 @@ Event Detail Section
 .postlist.blog-medium-view article{
 	margin-bottom:1px;
 	border-bottom:none;
-	padding-bottom:0px;
+	padding-bottom:15px;
 }
 .postlist article figure{
   overflow: hidden;

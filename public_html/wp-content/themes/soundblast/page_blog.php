@@ -46,7 +46,7 @@
 							$image_url = cs_get_post_img_src($post->ID, $width, $height);
 							$image_url_full = cs_get_post_img_src($post->ID, 0, 0);
 							$pos_class = '';
-							if($post_view == "Single Image" and $image_url == ''){ $pos_class = 'class="no-img"';}
+							if($post_view == "Single Image" and $image_url == '' and $cs_node->cs_blog_view != "blog-medium"){ $pos_class = 'class="no-img"';}
  					}else{
 						$post_view = '';
 						$no_image = '';
@@ -87,7 +87,7 @@
                                 }
 							} else {
 								?>
-                                <span><span><?php echo date('M',strtotime($event_from_date));?></span> <br /> <?php echo date('d',strtotime($event_from_date));?></span>
+                                <span><span><?php echo date('M',strtotime(get_the_date()));?></span> <br /> <?php echo date('d',strtotime(get_the_date()));?></span>
                                 <?php
 							}?>
                             </figure>
@@ -199,7 +199,7 @@
 							$height	=470;
 							$image_url = cs_get_post_img_src($post->ID, $width, $height);
 							$pos_class = '';
-							if($post_view == "Single Image" and $image_url == ''){ $pos_class = 'class="no-img"';}
+							if($post_view == "Single Image" and $image_url == '' and $cs_node->cs_blog_view != "blog-medium"){ $pos_class = 'class="no-img"';}
  					}else{
 						$post_view = '';
 						$no_image = '';

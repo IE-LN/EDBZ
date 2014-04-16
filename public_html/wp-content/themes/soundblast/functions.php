@@ -528,7 +528,7 @@ function cs_get_countries() {
 		$cs_twitter_widget = array();
 		$cs_twitter_widget[1] = array(
 		"title"		=>	'Twitter',
-		"username" 	=>	"envato",
+		"username" 	=>	"edmbiz",
 		"numoftweets" => "2",
 		 );						
 		$cs_twitter_widget['_multiwidget'] = '1';
@@ -547,7 +547,7 @@ function cs_get_countries() {
 		$facebook_module = array();
 		$facebook_module[1] = array(
 		"title"		=>	'Facebook',
-		"pageurl" 	=>	"https://www.facebook.com/envato",
+		"pageurl" 	=>	"https://www.facebook.com/EDMbiz",
 		"showfaces" => "on",
 		"likebox_height" => "285",
 		"fb_bg_color" =>"#000",
